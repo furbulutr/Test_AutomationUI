@@ -5,7 +5,7 @@ import Pages.LoginPage;
 import base.BaseTest;
 import org.junit.Test;
 
-public class LoginTest  extends BaseTest {
+public class n11Test extends BaseTest {
 
 
     AddFavoritePage addFavoritePage;

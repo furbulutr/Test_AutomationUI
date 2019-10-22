@@ -8,7 +8,7 @@ public interface AddFavoriteContanst {
     public ElementInfo search = new ElementInfo("bilgisayar yazılmadı", By.id("searchData"));
     public ElementInfo search_icon = new ElementInfo("Ana Sayfada değilsiniz", By.xpath("  //*[@id=\"header\"]/div/div/div[2]/div[1]/a/span"));
     public ElementInfo PAGE_2 = new ElementInfo("2. sayfaya geçilemedi", By.cssSelector("#contentListing > div > div > div.productArea > div.pagination > a:nth-child(2)"));
-    public ElementInfo page_2_control = new ElementInfo("2. sayfada bilgisayar ile ürün bulunamadı", By.xpath("//div[@class='pagination']/a[text()='2']"));
+    public ElementInfo page_2_control = new ElementInfo("2. sayfa da bilgisayar ile ilgili ürün bulunamadı", By.xpath("//div[@class='pagination']/a[text()='2']"));
     public ElementInfo ürün_tıkla = new ElementInfo("ürüne tıklanmadı", By.xpath("//*[@id=\"contentListing\"]/div/div/div[2]/div[2]/ul/li[1]/a/h4"));
     public ElementInfo sepete_ekle = new ElementInfo("bilgisayar yazılmadı", By.xpath("//*[@id=\"contentProDetail\"]/div/div[3]/div[2]/div[3]/div[3]/a[2]"));
     public ElementInfo sepete_git = new ElementInfo("bilgisayar yazılmadı", By.xpath(" //*[@id=\"header\"]/div/div/div[2]/div[2]/div[4]/a/i\n"));

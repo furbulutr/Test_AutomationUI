@@ -13,7 +13,7 @@ public class LoginPage  extends BasePage implements LoginPageContanst {
     public void Login() throws InterruptedException {
 
        Thread.sleep(2000);
-       Assert.assertTrue("Ana sayfada değilsiniz",isElementVisible(HomePage_logo,10)); // Ana sayfa olup olmama durumu logo ile kontor edildi
+       Assert.assertTrue("Ana sayfada değilsiniz",isElementVisible(HomePage_logo,10)); // Ana sayfa da olup olmama durumu logo ile kontor edildi
        waitForElementAndClick(input_button);
        Thread.sleep(1000);
        waitForElementAndSendKeys(email_,email);
